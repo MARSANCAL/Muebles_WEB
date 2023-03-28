@@ -183,3 +183,32 @@ body::-webkit-scrollbar-track {
         right: 12rem;
     }
 }
+
+/**Carrusel configuraciones**/
+
+#Carrusel{
+    background-color: #c49725;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+.carruselIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.precio{
+    position: relative;
+    font-size: 35px;
+    padding-left: -40%;
+    color: white;
+}
+
+.carousel-inner img {
+    width: 50%;
+    max-height: 505px;
+}
+
